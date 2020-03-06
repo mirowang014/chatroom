@@ -2,8 +2,8 @@ import Chatkit from '@pusher/chatkit-client'
 
 const credentials = {
   url: (id, token) =>
-    `https://chatkit-demo-server.herokuapp.com/token?user=${id}&token=${token}`,
-  instanceLocator: 'v1:us1:13e46e6f-a104-454d-85d1-0ac1f59258a2',
+    `https://chatroomtest123456.herokuapp.com/token?user=${id}&token=${token}`,
+  instanceLocator: 'v1:us1:05f46048-3763-4482-9cfe-51ff327c3f29',
 }
 
 const { instanceLocator, url } = credentials
